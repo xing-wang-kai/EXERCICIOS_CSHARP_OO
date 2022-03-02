@@ -1,0 +1,8 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\bin\Debug\_PROJETO3_trabalhandoComCHAR.exe.config
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\bin\Debug\_PROJETO3_trabalhandoComCHAR.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\bin\Debug\_PROJETO3_trabalhandoComCHAR.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\obj\Debug\_PROJETO3_trabalhandoComCHAR.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\obj\Debug\_PROJETO3_trabalhandoComCHAR.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\obj\Debug\_PROJETO3_trabalhandoComCHAR.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\obj\Debug\_PROJETO3_trabalhandoComCHAR.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO3_trabalhandoComCHAR\obj\Debug\_PROJETO3_trabalhandoComCHAR.pdb

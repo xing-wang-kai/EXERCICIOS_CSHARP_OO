@@ -1,0 +1,8 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\obj\Debug\AuladeCsharp.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\obj\Debug\AuladeCsharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\obj\Debug\AuladeCsharp.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\bin\Debug\AuladeCsharp.exe.config
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\bin\Debug\AuladeCsharp.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\bin\Debug\AuladeCsharp.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\obj\Debug\AuladeCsharp.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\AuladeCsharp\obj\Debug\AuladeCsharp.pdb

@@ -1,0 +1,8 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\obj\Debug\_projeto02_criandovariaveis.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\obj\Debug\_projeto02_criandovariaveis.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\obj\Debug\_projeto02_criandovariaveis.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\bin\Debug\_projeto02_criandovariaveis.exe.config
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\bin\Debug\_projeto02_criandovariaveis.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\bin\Debug\_projeto02_criandovariaveis.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\obj\Debug\_projeto02_criandovariaveis.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_projeto02_criandovariaveis\obj\Debug\_projeto02_criandovariaveis.pdb

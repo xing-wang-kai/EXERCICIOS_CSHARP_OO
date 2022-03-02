@@ -1,0 +1,8 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\bin\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.exe.config
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\bin\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\bin\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\obj\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\obj\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\obj\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\obj\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO04_CONTA_CORRENTEBYTEBANK\obj\Debug\_PROJETO04_CONTA_CORRENTEBYTEBANK.pdb
