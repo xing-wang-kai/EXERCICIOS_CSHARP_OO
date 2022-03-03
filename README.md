@@ -240,4 +240,64 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
         }
     }
 }
-Observer que o methods static tem seu setter privado, para proteger que o mesmo seja alterado fora da class, ele será somente alterado quando uma nova conta for criada, e seu valor será salvo na receita ou CLASS;
+Observer que o methods static tem seu setter privado, para proteger que o mesmo seja alterado fora da class,
+ele será somente alterado quando uma nova conta for criada, e seu valor será salvo na receita ou CLASS;
+-----------------------------------------------------------------------------------------------------------------
+
+## 8 ) é possivel sobreescrever uma class com uma nova no exemplo abaixo:
+
+                    namespace _PROJETO05_bitBank
+                        {
+                            public class Funcionario
+                            {
+                                public static int TotalFUncionario { get; private set; }
+                                public Funcionario(string Nome, string Cpf, double Salario)
+                                {
+                                    this.Nome = Nome;
+                                    setCpf(Cpf);
+                                    this.Salario = Salario;
+                                    TotalFUncionario++;
+                                }
+                                public string Nome { get; set; }
+                                public string Cpf { get; set; }
+                                public double Salario { get; set; };
+
+                                public virtual double GetBonificacao()
+                                {
+                                    return Salario * 0.10;
+                                }
+                            }
+                        }
+
+Enquanto na Class extendida colocamos após o nome da Classe " : " e colocamos o nome da Classe Pai Funcionário.
+
+                    namespace _PROJETO05_bitBank
+                        {
+                            internal class Diretor: Funcionario
+                            {
+                                public Diretor(string Nome, string Cpf, double Salario) : base(Nome, Cpf, Salario)
+                                {
+                                }
+
+                                public override double GetBonificacao()
+                                {
+                                    return Salario;
+                                }
+                            }
+                        }
+
+-----------------------------------------------------------------------------------------------------------------
+
+## 8) Herança de atributos entre Class pai e filhas;
+    como no exemplo acima diretor herda todos atributos de Funcionários, após o Constructor de diretor informando todos argumentos,
+    então construimos com " : " a palavra base(variáveis) desta forma após o Constructor não precisa declarar as váriaveis porque elas 
+    são herdadas da class pai Funcionários.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+## 9) Sobreescrevendo methods dentro de Class:
+    Como no exemplo acima podemos dizer que o method que está na class Pai é do tipo " VIRTUAL "  e desta maneira pode ser sobreescrito pelos
+    class filhso usando a palavra "OVERRIDE" o method terá um comportamento diferente;
+
+-----------------------------------------------------------------------------------------------------------------

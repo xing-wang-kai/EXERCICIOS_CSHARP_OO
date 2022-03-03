@@ -48,6 +48,11 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
             Console.WriteLine("LIMITE: " + Conta01.Limite );
 
             Console.ReadLine();
+
+            Conta Conta1 = new Conta(1111, 2000);
+
+          
+
         }
     }
 
