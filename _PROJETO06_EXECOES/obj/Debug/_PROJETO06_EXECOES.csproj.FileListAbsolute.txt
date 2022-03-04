@@ -1,0 +1,8 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\bin\Debug\_PROJETO06_EXECOES.exe.config
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\bin\Debug\_PROJETO06_EXECOES.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\bin\Debug\_PROJETO06_EXECOES.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\obj\Debug\_PROJETO06_EXECOES.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\obj\Debug\_PROJETO06_EXECOES.csproj.SuggestedBindingRedirects.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\obj\Debug\_PROJETO06_EXECOES.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\obj\Debug\_PROJETO06_EXECOES.exe
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AuladeCsharp\_PROJETO06_EXECOES\obj\Debug\_PROJETO06_EXECOES.pdb

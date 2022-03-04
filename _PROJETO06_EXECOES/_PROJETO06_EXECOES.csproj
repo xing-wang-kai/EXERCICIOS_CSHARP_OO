@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{188CE1ED-3AF6-412C-B76A-9B97F8BBE18C}</ProjectGuid>
+    <ProjectGuid>{C7C0A17C-01C9-4987-A2E0-CA76C0C1DBF4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_PROJETO05_bitBank</RootNamespace>
-    <AssemblyName>_PROJETO05_bitBank</AssemblyName>
+    <RootNamespace>_PROJETO06_EXECOES</RootNamespace>
+    <AssemblyName>_PROJETO06_EXECOES</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Autenticavel.cs" />
-    <Compile Include="Auxiliar.cs" />
-    <Compile Include="Designer.cs" />
-    <Compile Include="Diretor.cs" />
-    <Compile Include="Funcionario.cs" />
-    <Compile Include="GerenteContas.cs" />
-    <Compile Include="ParceiroComercial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SistemaInterno.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

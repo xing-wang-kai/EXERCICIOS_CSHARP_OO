@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace _PROJETO05_bitBank
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
         public static int TotalFUncionario { get; private set; }
         public Funcionario(string Nome, string Cpf, double Salario)
@@ -16,7 +16,7 @@ namespace _PROJETO05_bitBank
         }
         public string Nome { get; set; }
         public string Cpf { get; set; }
-        public double Salario;
+        public double Salario { get; protected set; }
 
         public string getCpf()
         {
@@ -26,15 +26,9 @@ namespace _PROJETO05_bitBank
         {
             this.Cpf = value;
         }
-        //public double Salario
-        //{
-        //    get { return this.Salario; }
-        //    set { this.Salario = value; }
-        //}
-
-        public virtual double GetBonificacao()
-        {
-            return Salario * 0.10;
-        }
+       
+        public abstract double GetBonificacao();
+        public abstract void AumentarSalario();
+       
     }
 }

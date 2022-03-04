@@ -6,42 +6,57 @@ namespace _PROJETO05_bitBank
     {
         static void Main(string[] args)
         {
-            Funcionario Carlos = new Funcionario("Carlos Costa e costa", "111.111.111-11", 2000.00);
-            Funcionario Fernanda = new Funcionario("Fernanda Figuereido", "222.222.222-22", 1500.00);
-            Funcionario Jose = new Funcionario("Jose Antonio da Silva", "333.333.333-33", 3000.00);
-            Diretor Angelica = new Diretor("Angelica dos Santos", "444.444.444-44", 8000.00);
+            Diretor Fernanda = new Diretor("Fernanda Figuereido", "222.222.222-22", 1500.00);
+            Fernanda.Senha = "12345";
+            Designer Jose = new Designer("Jose Antonio da Silva", "333.333.333-33", 1000.00);
+            GerenteContas Angelica = new GerenteContas("Angelica dos Santos", "444.444.444-44", 1000.00);
+            Auxiliar Lucilene = new Auxiliar("lucilene Costa e costa", "555.555.555-55", 1000.00);
 
-            Console.WriteLine("FUNCIONÁRIO: ");
+
+            Console.WriteLine("DIRETOR: ");
             Console.WriteLine("NOME: " + Fernanda.Nome);
             Console.WriteLine("SALARIO: " + Fernanda.Salario);
             Console.WriteLine("CPF: " + Fernanda.getCpf());
             Console.WriteLine("BONIFICAÇÂO: " + Fernanda.GetBonificacao());
+            Fernanda.AumentarSalario();
+            Console.WriteLine("NOVO SALARIO DE FERNANDA: " + Fernanda.Salario);
             Console.WriteLine();
 
-            Console.WriteLine("FUNCIONÁRIO: ");
+            Console.WriteLine("DESIGNER: ");
             Console.WriteLine("NOME: " + Jose.Nome);
             Console.WriteLine("SALARIO: " + Jose.Salario);
             Console.WriteLine("CPF: " + Jose.getCpf());
             Console.WriteLine("BONIFICAÇÂO: " + Jose.GetBonificacao());
+            Jose.AumentarSalario();
+            Console.WriteLine("NOVO SALARIO DE FERNANDA: " + Jose.Salario);
             Console.WriteLine();
 
-            Console.WriteLine("FUNCIONÁRIO: ");
-            Console.WriteLine("NOME: " + Carlos.Nome);
-            Console.WriteLine("SALARIO: " + Carlos.Salario);
-            Console.WriteLine("CPF: " + Carlos.getCpf());
-            Console.WriteLine("BONIFICAÇÂO: " + Carlos.GetBonificacao());
-            Console.WriteLine("TOTAL FUNCIONÁRIOS: " + Funcionario.TotalFUncionario);
-            Console.WriteLine();
-
-            Console.WriteLine("DIRETOR: ");
+            Console.WriteLine("GERENTE DE CONTAS: ");
             Console.WriteLine("NOME: " + Angelica.Nome);
             Console.WriteLine("SALARIO: " + Angelica.Salario);
             Console.WriteLine("CPF: " + Angelica.getCpf());
             Console.WriteLine("BONIFICAÇÂO: " + Angelica.GetBonificacao());
+            Angelica.AumentarSalario();
+            Console.WriteLine("NOVO SALARIO DE FERNANDA: " + Angelica.Salario);
+            Console.WriteLine();
 
+            Console.WriteLine("AUXILIAR: ");
+            Console.WriteLine("NOME: " + Lucilene.Nome);
+            Console.WriteLine("SALARIO: " + Lucilene.Salario);
+            Console.WriteLine("CPF: " + Lucilene.getCpf());
+            Console.WriteLine("BONIFICAÇÂO: " + Lucilene.GetBonificacao());
+            Lucilene.AumentarSalario();
+            Console.WriteLine("NOVO SALARIO DE FERNANDA: " + Lucilene.Salario);
             Console.ReadLine();
+            
+            SistemaInterno SistemaInterno  = new SistemaInterno();
+
+            SistemaInterno.Logar(Fernanda, "12345");
+            SistemaInterno.Logar(Fernanda, "boolitas");
+            
             
         }
     }
+
 }
 
