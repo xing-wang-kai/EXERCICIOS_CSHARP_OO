@@ -51,6 +51,11 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
 
             Conta Conta1 = new Conta(1111, 2000);
 
+            //catch(ArgumentException ex){
+            //  Console.WriteLine(ex.paramName)
+            //  }
+            // retorna o erro em nameof para paramName;
+
           
 
         }

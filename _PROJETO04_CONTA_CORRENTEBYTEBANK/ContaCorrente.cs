@@ -13,6 +13,10 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
         public static int TotalContas { get; private set; }
         public ContaCorrente(int agencia, int numero, double saldo)
         {
+            if(agencia <= 0 || numero <= 0)
+            {
+                throw new ArgumentException("Agencia ou número negativos", nameof(agencia));
+            }
             this.setSaldo(saldo);
             this.setAgencia(agencia);
             this.setNumero(numero);
@@ -20,7 +24,7 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
         }
         public Cliente titular;
         private int agencia;
-        private int numero;
+        private readonly int numero;
         private double saldo;
         public double _limite = 1000;
 
@@ -71,6 +75,7 @@ namespace _PROJETO04_CONTA_CORRENTEBYTEBANK
         {
             if (this.saldo < valor)
             {
+          
                 return false;
             }
             else

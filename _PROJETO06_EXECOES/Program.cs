@@ -18,15 +18,13 @@ namespace _PROJETO06_EXECOES
             catch (DivideByZeroException erro)
             {
                 Console.WriteLine("não é possivel dividir por 0");
-                Console.ReadLine();
                 Console.WriteLine(erro.StackTrace);
-                Console.ReadLine();
                 Console.WriteLine(erro.Message);
                 Console.ReadLine();
             }
             catch (Exception erro)
             {
-                Console.WriteLine("A referencia informada é NULL");
+                Console.WriteLine("Ocorreu um erro do tipo genérico");
                  Console.WriteLine(erro.Message);
             }
             
@@ -41,11 +39,7 @@ namespace _PROJETO06_EXECOES
         {
             
             int resultado = Dividir(10, divisor);
-            Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
-            
-            
-
-            
+            Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);        
         }
         private static int Dividir(int numero, int divisor)
         {

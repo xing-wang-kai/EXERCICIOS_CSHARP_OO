@@ -460,10 +460,31 @@ que indica que o METHOD PARENT será reenscrito pela CLASS CHILD.
                                     Console.log("não é possivel dividir por zero.")
                                 }
 
-### 1.2 ) Tratamento de Excesões
 
-    em CATCH podemos informar somente Exception que é a class pai dos erros, caso precisamos de um retorno em
-    CATCH usamos a palavra reservada THROW;
+-----------------------------------------------------------------------------------------------------------------
+### 1.1.1) Trantando Exception de Private
+
+      Podemos usar a palavra privada e torna-la soment e leitura, desta forma a váriavel so pode ser envocada dentro do constructor
+      ao declarar numero colocar onlyread
+
+      Private onlyread int _numero;
+
+      Public int Numero: {
+          get{
+              return _numero;
+          }
+          set{
+              this.numero = values;
+          }
+      }
+
+
+-----------------------------------------------------------------------------------------------------------------
+### 1.2 ) Tratamento de Exception
+
+    CATCH lança caso o sistem retorne um erro, informado dentro do parents qual erro queremos retornar, 
+    podemos usar também o THROW para informar que nossa aplicação deverá continuar após receber o erro
+    e lançar para proxima tratativa;
     Podemos após o Exeption informar a mensagem erro que vai informar qual erro foi lançado com retorno erro.Message ou erro.stackTrace
 
     ex
@@ -475,6 +496,7 @@ que indica que o METHOD PARENT será reenscrito pela CLASS CHILD.
                                     Console.log(erro.stackTrace);
                                 }
 
+-----------------------------------------------------------------------------------------------------------------
 ### 1.3) ARGUMENTEXCEPTION PARAM NAME
         Podeos usar o Thown new Exception para laçar uma excessão ou definir uma nova excesão com a mensagem no constructor
         da Exception
@@ -493,9 +515,9 @@ que indica que o METHOD PARENT será reenscrito pela CLASS CHILD.
                                     Console.WriteLine(ex.Message);
 
                                 }
-                                Porém o código acima pega qualquer erro e informa a mensagem setada, para corrigir isso
-                                usamos a palavaras ArgumentException
-                                --------------------------------------------------------------------------
+        Porém o código acima pega qualquer erro e informa a mensagem setada, para corrigir isso
+        usamos a palavaras ArgumentException
+        --------------------------------------------------------------------------
 
                                 if(agencia <= || numero <=0){
 
@@ -514,6 +536,7 @@ que indica que o METHOD PARENT será reenscrito pela CLASS CHILD.
                                 }
 
 
+-----------------------------------------------------------------------------------------------------------------
 ### 1.4) Criando excesões Ricas:
 
     Podemos criar novas excesões fazendo uma CLASS com final Exception e depois extender com : as Exception e lançar um novo erro
@@ -532,16 +555,32 @@ que indica que o METHOD PARENT será reenscrito pela CLASS CHILD.
                 }
 
                 public SaldoInsuficienteException(string message){
-                    :base(messagem)
+                    :base(message)
                 }
 
             }
+
+-----------------------------------------------------------------------------------------------------------------
+###1.5)Usando FINALLY
+    O finally será sempre executado mesmo que a Exception ocorrer ou não ocorrer.
+    try{
+        //O sistema tentará executar este código
+    }
+    catch(){
+        //Se dder erro executará este código
+    }
+    finally{
+        //Este código sempre será exectutado
+    }
+
+
 
 -----------------------------------------------------------------------------------------------------------------
 
 ## PALAVRAS PARA TRATAMENTO DE EXECSÕES;
 -TRY
 -CATCH
+-FINALLY
 -THROW
 -EXCEPTION
 -ArgumentException
